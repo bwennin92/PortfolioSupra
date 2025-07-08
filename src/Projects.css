@@ -17,3 +17,36 @@
   margin-bottom: 1rem;
   font-size: 1.05rem;
 }
+
+/* Add to your Projects.css for better readability */
+/* filepath: c:\Users\Brandon\React_projects\react_app_portfolio\src\Projects.css */
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-title {
+  font-size: 1.15rem;
+  color: #0ff;
+  letter-spacing: 0.5px;
+}
+
+.project-desc {
+  font-size: 1.05rem;
+  color: #f8f8ff;
+  margin-left: 0.25rem;
+}
+
+.project-link {
+  color: #ff0;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.project-link:hover {
+  color: #0ff;
+  text-shadow: 0 0 8px #0ff;
+}
