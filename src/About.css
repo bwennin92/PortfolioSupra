@@ -1,14 +1,60 @@
-.about-section {
+.about-section,
+.skills-section,
+.contact-section {
+  background: #181a20;
+  color: #e0e6f0;
   padding: 2rem;
-  background: #f9f9f9;
   border-radius: 8px;
   margin-bottom: 2rem;
+  box-shadow: 0 2px 16px #0ff2, 0 0 8px #f0f;
 }
-.about-section h2 {
+.about-section h2,
+.skills-section h2,
+.contact-section h2 {
+  color: #0ff;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
-  color: #2d3748;
+  text-shadow: 0 0 8px #0ff, 0 0 2px #000;
 }
 .about-section p {
   color: #444;
   font-size: 1.1rem;
+}
+.skills-list,
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li,
+.contact-list li {
+  background: #23243a;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.8rem;
+  color: #e0e6f0;
+  box-shadow: 0 1px 8px #0ff2;
+  font-size: 1.08rem;
+}
+.contact-section input,
+.contact-section textarea,
+.contact-section button {
+  background: #23243a;
+  color: #e0e6f0;
+  border: 1px solid #0ff;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.contact-section button {
+  background: #0ff;
+  color: #181a20;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-section button:hover {
+  background: #09f;
+  color: #fff;
 }
