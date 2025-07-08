@@ -1,24 +1,30 @@
 .projects-section {
   padding: 2rem;
-  background: #fff;
+  background: #181a20;
   border-radius: 8px;
   margin-bottom: 2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 16px #0ff2, 0 0 8px #f0f;
 }
 .projects-section h2 {
   margin-bottom: 1rem;
-  color: #020202;
+  color: #0ff;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #0ff, 0 0 2px #000;
 }
 .projects-section ul {
   list-style: none;
   padding: 0;
 }
 .projects-section li {
-  margin-bottom: 1rem;
-  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.08rem;
+  background: #23243a;
+  border-radius: 6px;
+  padding: 1rem;
+  color: #e0e6f0;
+  box-shadow: 0 1px 8px #0ff2;
 }
 
-/* Add to your Projects.css for better readability */
 /* filepath: c:\Users\Brandon\React_projects\react_app_portfolio\src\Projects.css */
 
 .projects-list {
@@ -28,14 +34,15 @@
 }
 
 .project-title {
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   color: #0ff;
   letter-spacing: 0.5px;
+  text-shadow: 0 0 6px #0ff, 0 0 2px #000;
 }
 
 .project-desc {
-  font-size: 1.05rem;
-  color: #f8f8ff;
+  font-size: 1.08rem;
+  color: #e0e6f0;
   margin-left: 0.25rem;
 }
 
@@ -43,10 +50,15 @@
   color: #ff0;
   font-weight: bold;
   text-decoration: underline;
-  transition: color 0.2s;
+  transition: color 0.2s, text-shadow 0.2s;
+  background: #23243a;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  box-shadow: 0 0 4px #0ff2;
 }
 
 .project-link:hover {
   color: #0ff;
-  text-shadow: 0 0 8px #0ff;
+  text-shadow: 0 0 8px #0ff, 0 0 2px #fff;
+  background: #181a20;
 }
