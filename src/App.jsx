@@ -6,6 +6,7 @@ import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
 import Contact from './Contact'
+import Egg from './Egg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
         <section id="skills"><Skills /></section>
         <section id="contact"><Contact /></section>
       </main>
+      <Egg />
     </div>
   )
 }

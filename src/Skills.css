@@ -54,3 +54,56 @@
   background: #09f;
   color: #fff;
 }
+
+/* Add to the end of your CSS files for mobile responsiveness */
+
+/* For tablets and below */
+@media (max-width: 900px) {
+  .about-section,
+  .skills-section,
+  .contact-section,
+  .projects-section {
+    padding: 1.2rem;
+    font-size: 1rem;
+  }
+  .skills-list li,
+  .contact-list li,
+  .projects-section li {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+/* For phones */
+@media (max-width: 600px) {
+  .about-section,
+  .skills-section,
+  .contact-section,
+  .projects-section {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 0.97rem;
+  }
+  .about-section h2,
+  .skills-section h2,
+  .contact-section h2,
+  .projects-section h2 {
+    font-size: 1.2rem;
+  }
+  .skills-list li,
+  .contact-list li,
+  .projects-section li {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.97rem;
+  }
+  .contact-section input,
+  .contact-section textarea {
+    font-size: 0.97rem;
+    padding: 0.4rem 0.7rem;
+  }
+  .contact-section button {
+    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+  }
+}

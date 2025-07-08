@@ -130,3 +130,36 @@ button:hover, .contact-form button:hover {
 
 /* Custom font import */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+/* Add to your main CSS file or create Egg.css and import it */
+
+
+.digital-egg {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  height: 90px;
+  filter: drop-shadow(0 0 10px #0ff8);
+}
+
+.digital-egg .egg-text {
+  font-family: 'Share Tech Mono', 'Consolas', monospace;
+  color: #0ff;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px #0ff, 0 0 2px #000;
+  pointer-events: none;
+}
+
+.digital-egg.zooming {
+  animation: egg-zoom 0.4s cubic-bezier(.5,2,.5,1);
+}
+
+@keyframes egg-zoom {
+  0% { transform: scale(1) rotate(0deg);}
+  50% { transform: scale(1.7) rotate(20deg);}
+  100% { transform: scale(1.5) rotate(20deg);}
+}
