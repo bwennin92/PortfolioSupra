@@ -24,10 +24,6 @@ This is a modern, visually appealing personal portfolio web app built with React
    npm run build
    ```
 
-## Customization
-- Update content in the `src` folder to personalize your portfolio.
-- Replace placeholder images and text with your own.
-
 ---
 Built with [Vite](https://vitejs.dev/) and [React](https://react.dev/).
 # PortfolioSupra
