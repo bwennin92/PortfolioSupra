@@ -10,14 +10,6 @@ export default function Projects() {
           <span className="project-desc"> – A responsive React portfolio site (this one!)</span>
         </li>
         <li>
-          <strong className="project-title">Task Tracker App</strong>
-          <span className="project-desc"> – Productivity tool with React and Firebase</span>
-        </li>
-        <li>
-          <strong className="project-title">Weather Dashboard</strong>
-          <span className="project-desc"> – Real-time weather app using OpenWeatherMap API</span>
-        </li>
-        <li>
           <strong className="project-title">Phishing Detection Demo</strong>
           <span className="project-desc">
             {' '}
