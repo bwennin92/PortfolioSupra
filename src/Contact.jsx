@@ -27,7 +27,7 @@ export default function Contact() {
       <h2>Contact</h2>
       <form
         className="contact-form"
-        action="https://formspree.io/f/yourFormID"
+        action="https://formspree.io/f/xovwoewd"
         method="POST"
         ref={formRef}
         onSubmit={handleSubmit}
