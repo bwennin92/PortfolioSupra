@@ -4,7 +4,11 @@ export default function Contact() {
   return (
     <section className="contact-section">
       <h2>Contact</h2>
-      <form className="contact-form">
+      <form
+        className="contact-form"
+        action="https://formspree.io/f/yourFormID"
+        method="POST"
+      >
         <label>
           Name:
           <input type="text" name="name" required />
