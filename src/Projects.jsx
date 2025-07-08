@@ -4,25 +4,33 @@ export default function Projects() {
   return (
     <section className="projects-section">
       <h2>Projects</h2>
-      <ul>
+      <ul className="projects-list">
         <li>
-          <strong>Modern Portfolio</strong> – A responsive React portfolio site (this one!)
+          <strong className="project-title">Modern Portfolio</strong>
+          <span className="project-desc"> – A responsive React portfolio site (this one!)</span>
         </li>
         <li>
-          <strong>Task Tracker App</strong> – Productivity tool with React and Firebase
+          <strong className="project-title">Task Tracker App</strong>
+          <span className="project-desc"> – Productivity tool with React and Firebase</span>
         </li>
         <li>
-          <strong>Weather Dashboard</strong> – Real-time weather app using OpenWeatherMap API
+          <strong className="project-title">Weather Dashboard</strong>
+          <span className="project-desc"> – Real-time weather app using OpenWeatherMap API</span>
         </li>
         <li>
-          <strong>Phishing Detection Demo</strong> – 
-          <a
-            href="https://bwennin92.github.io/phishing-demo/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Try it here
-          </a>
+          <strong className="project-title">Phishing Detection Demo</strong>
+          <span className="project-desc">
+            {' '}
+            –{' '}
+            <a
+              href="https://bwennin92.github.io/phishing-demo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              Try it here
+            </a>
+          </span>
         </li>
       </ul>
     </section>
