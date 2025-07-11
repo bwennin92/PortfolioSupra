@@ -1,12 +1,11 @@
 # Modern React Portfolio
 
-This is a modern, visually appealing personal portfolio web app built with React and Vite. It is designed for recruiters to view your projects, skills, and contact information.
+This is a modern, visually appealing personal portfolio web app built with React and Vite. 
 
 ## Features
 - **About**: Brief introduction and background
-- **Projects**: Showcase of your best work
-- **Skills**: Technologies and tools you use
-- **Contact**: Easy way for recruiters to reach you
+- **Projects**: Showcase of my best work
+- **Skills**: Technologies and tools
 - **Responsive Design**: Looks great on all devices
 - **Professional, Clean UI**: Modern and accessible
 
@@ -24,10 +23,6 @@ This is a modern, visually appealing personal portfolio web app built with React
    ```sh
    npm run build
    ```
-
-## Customization
-- Update content in the `src` folder to personalize your portfolio.
-- Replace placeholder images and text with your own.
 
 ---
 Built with [Vite](https://vitejs.dev/) and [React](https://react.dev/).
